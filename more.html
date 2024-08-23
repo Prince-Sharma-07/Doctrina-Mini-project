@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="more.css">
+</head>
+<body>
+    <div><p><a href="index.html" class="green-button">Back</a></p></div>
+    <div class="section" id="science-section">
+        <h2 onclick="toggleSection('science')">SCIENCE</h2>
+        <div class="section-links" id="science-links">
+            <ul>
+                <li><a href="https://blossoms.mit.edu/resources/biology_resources">Biology</a></li>
+                <li><a href="https://www.physicsclassroom.com/">Physics</a></li>
+                <li><a href="https://guides.lib.utexas.edu/chemistry/free">Chemistry</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section" id="coding-section">
+        <h2 onclick="toggleSection('coding')">CODING</h2>
+        <div class="section-links" id="coding-links">
+            <ul>
+                <li><a href="https://www.w3schools.com/html/default.asp">HTML</a></li>
+                <li><a href="https://www.w3schools.com/css/default.asp">CSS</a></li>
+                <li><a href="https://www.w3schools.com/js/default.asp">JavaScript</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section" id="maths-section">
+        <h2 onclick="toggleSection('maths')">MATHS</h2>
+        <div class="section-links" id="maths-links">
+            <ul>
+                <li><a href="https://www.khanacademy.org/math/algebra">Algebra</a></li>
+                <li><a href="https://www.splashlearn.com/math-vocabulary/geometry/geometry">Geometry</a></li>
+                <li><a href="https://math.mit.edu/~djk/calculus_beginners/chapter00/section02.html">Calculus</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section" id="language-section">
+        <h2 onclick="toggleSection('language')">LANGUAGE</h2>
+        <div class="section-links" id="language-links">
+            <ul>
+                <li><a href="https://www.ef.com/wwen/english-resources/">English</a></li>
+                <li><a href="https://studyspanish.com/">Spanish</a></li>
+                <li><a href="https://www.busuu.com/en/course/learn-french-online">French</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        function toggleSection(sectionId) {
+            var sectionLinks = document.getElementById(sectionId + '-links');
+            sectionLinks.style.display = (sectionLinks.style.display === 'block') ? 'none' : 'block';
+        }
+    </script>
+</body>
+</html>

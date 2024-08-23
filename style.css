@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: gainsboro
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #1d1d1d;
+}
+
+h6 {
+  color: #d8d8d8;
+}
+
+hr {
+  width: 30px;
+  height: 2px;
+  background-color: #494645;
+}
+button {
+  font-size: 0.8rem;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  background-color: #1d1d1d;
+  color: aliceblue;
+  padding: 13px 30px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+}
+button:hover {
+  background-color: #3a3833;
+  border: none;
+}
+hr {
+  width: 50px;
+  height: 2px;
+  background-color: #1d1d1d;
+}
+
+.navbar {
+  font-size: 16px;
+  top: 0;
+  left: 0;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.navbar-light .navbar-nav .nav-link {
+  padding: 0 20px;
+  color: black;
+  transition: 0.3s ease;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar i:hover,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar i.active {
+  color: grey;
+  text-decoration: solid;
+  text-shadow: 3px 3px 6px grey;
+}
+.navbar i {
+  font-size: 1.2rem;
+  padding: 0 7px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+/* Mobile nav */
+.navbar-light .navbar-toggler {
+  border: none;
+  outline: none;
+}
+#bar{
+    font-size: 1.5rem;
+    padding: 7px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease;
+    color: black;
+}
+#bar:hover,
+#bar.active{
+    color: #fff;
+}
+.newai{
+    margin-top : 7rem;
+    margin-left: 3rem;
+    color: black;
+    font-size: 120px;
+}
+.container2, .container3, .container4, .container5{
+    display: flex;
+}
+.ai-part-1, .ai-part-2, .ai-part-3, .ai-part-4, .ai-part-5, .ai-part-6, .ai-part-7, .ai-part-8, .ai-part-9 , .ai-part-10, .ai-part-11, .ai-part-12{
+    border: 1px solid grey;
+    width: 100%;
+    height: 200px;
+    margin: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px grey;
+}
+
+.img1{
+  width: 100%;
+  height: 200px;
+  border-radius: 20px;
+}
+.img2{
+  width: 100%;
+  height: 200px;
+  border-radius: 20px;
+}
+.img3{
+  width: 100%;
+  height: 200px;
+  border-radius: 20px;
+}
+.img4{
+  width: 100%;
+  height: 200px;
+  border-radius: 20px;
+}
+.img5{
+  width: 100%;
+  height: 200px;
+  border-radius: 20px;
+}
+.img6{
+  width: 100%;
+  height: 200px;
+  border-radius: 20px;
+}
+.img7{
+  width: 100%;
+  height: 200px;
+  border-radius: 20px;
+}
+.img8{
+  width: 100%;
+  height: 200px;
+  border-radius: 20px;
+}
+.img9{
+  width: 100%;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.learners{
+   color: orangered;
+   font-size: 50px;
+   margin-bottom: -95px;
+}
+.learnerwords{
+  font-size: 20px;
+}
+.lastwords{
+  color: orange
+}
+
+.choose{
+  margin-left: 3rem;
+  margin-top: 5rem;
+  font-size: 80px;
+}
+.letters{
+  margin-left: 3rem;
+  margin-top: 10px;
+  font-size: 20px;
+  align-items: center;
+}
+
+.steps{
+  font-size: 25 px;
+  margin-left: 3rem;
+
+}
+.green-button {
+      display: inline-block;
+      padding: 20px 40px;
+      background-color: #4CAF50;
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+      font-size: 24px;
+      text-transform: uppercase;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      text-decoration: none;
+      margin-left: 700px;
+    }
+
+    .green-button:hover {
+      background-color: #45a049;
+    }
+
+    .doctrina-text {
+      font-family: 'Poppins', sans-serif;
+      font-size: 30px;
+      margin-left: -83px;
+      color: green;
+      margin-top: 5px;
+    }
+    
+    .animate
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 120px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
